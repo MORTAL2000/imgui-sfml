@@ -334,7 +334,7 @@ namespace
 		ImGuiIO& io = ImGui::GetIO();
 		assert(io.Fonts->TexID != NULL); // You forgot to create and set font texture
 
-		// since we are use 2D All opengl states SFML will take care of it.
+		// since we are use 2D. SFML will take care of All opengl states.
 		// just enable/ disable what we need
 		glEnable(GL_SCISSOR_TEST);
 
